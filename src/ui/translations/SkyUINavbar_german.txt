@@ -1,0 +1,10 @@
+$SkyUINavbar_Inventory	Inventar
+$SkyUINavbar_Magic	Magie
+$SkyUINavbar_Map	Karte
+$SkyUINavbar_Skills	Fertigkeiten
+$SkyUINavbar_Bestiary	Bestiarium
+$SkyUINavbar_CustomSkills	Zusatzfertigkeiten
+$SkyUINavbar_Wait	Warten
+$SkyUINavbar_Character	Charakter
+$SkyUINavbar_Achievements	Erfolge
+$SkyUINavbar_Hold	(halten)

@@ -1,0 +1,10 @@
+$SkyUINavbar_Inventory	Inventory
+$SkyUINavbar_Magic	Magic
+$SkyUINavbar_Map	Map
+$SkyUINavbar_Skills	Skills
+$SkyUINavbar_Bestiary	Bestiary
+$SkyUINavbar_CustomSkills	Custom Skills
+$SkyUINavbar_Wait	Wait
+$SkyUINavbar_Character	Character
+$SkyUINavbar_Achievements	Achievements
+$SkyUINavbar_Hold	(hold)

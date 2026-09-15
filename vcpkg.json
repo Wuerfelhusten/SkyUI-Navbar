@@ -1,0 +1,55 @@
+{
+  "name": "skyui-navbar",
+  "version-string": "1.0.0",
+  "description": "Navigation Bar for SkyUI: mouse, keyboard and controller navigation between Skyrim menus",
+  "dependencies": [
+    {
+      "name": "commonlibsse-ng",
+      "default-features": false
+    },
+    "nlohmann-json"
+  ],
+  "builtin-baseline": "32305df7d0b9a308e6ac454dd98ebfe550342c09",
+  "default-features": [
+    "se",
+    "ae"
+  ],
+  "features": {
+    "se": {
+      "description": "Build for Skyrim SE",
+      "dependencies": [
+        {
+          "name": "commonlibsse-ng",
+          "default-features": false,
+          "features": [
+            "se"
+          ]
+        }
+      ]
+    },
+    "ae": {
+      "description": "Build for Skyrim AE",
+      "dependencies": [
+        {
+          "name": "commonlibsse-ng",
+          "default-features": false,
+          "features": [
+            "ae"
+          ]
+        }
+      ]
+    },
+    "vr": {
+      "description": "Build for Skyrim VR",
+      "dependencies": [
+        {
+          "name": "commonlibsse-ng",
+          "default-features": false,
+          "features": [
+            "vr"
+          ]
+        }
+      ]
+    }
+  }
+}

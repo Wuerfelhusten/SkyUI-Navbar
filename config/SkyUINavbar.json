@@ -1,0 +1,33 @@
+{
+  // Sidebar size: 1.0 = 100%. Allowed range: 0.25 to 3.0.
+  "navbarScale": 1.0,
+
+  // Show the switch-key icons and the hold hint above/below the navbar.
+  "showButtonHints": true,
+
+  // "fullscreen": original black screen fade. "menu": fade only the menu UI.
+  // In "menu" mode, opening Map or Skills combines BOTH fades; leaving uses UI-only.
+  "fadeMode": "menu",
+
+  // Fade to black / reveal the next menu, in seconds. Range: 0 to 10; decimals allowed.
+  // 0 skips the respective fade, but still waits for the menus to be ready.
+  "fadeOutSeconds": 0.05,
+  "fadeInSeconds": 0.05,
+
+  // This array sets BOTH the visible navbar order and the next-menu switch order.
+  // Missing mods are skipped automatically.
+  // menu: exact registered menu ID. Display names are translated automatically.
+  // showNavbar: display the navbar in this menu.
+  // showInNavbar: include this menu as a destination in the navbar.
+  "menus": [
+    { "menu": "InventoryMenu", "showNavbar": true, "showInNavbar": true },
+    { "menu": "MagicMenu", "showNavbar": true, "showInNavbar": true },
+    { "menu": "MapMenu", "showNavbar": true, "showInNavbar": true },
+    { "menu": "BestiaryMenu", "showNavbar": true, "showInNavbar": true },
+    { "menu": "StatsMenu", "showNavbar": true, "showInNavbar": true },
+    { "menu": "MetaSkillsMenu", "showNavbar": true, "showInNavbar": true },
+    { "menu": "Sleep/Wait Menu", "showNavbar": true, "showInNavbar": true },
+    { "menu": "CharacterSheet", "showNavbar": true, "showInNavbar": true },
+    { "menu": "AchievementMenu", "showNavbar": true, "showInNavbar": true }
+  ]
+}

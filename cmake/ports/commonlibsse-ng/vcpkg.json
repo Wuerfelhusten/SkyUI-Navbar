@@ -1,0 +1,40 @@
+{
+  "name": "commonlibsse-ng",
+  "version": "7.5.4",
+  "port-version": 1,
+  "description": "A fork of CommonLibSSE with advanced features for modern SKSE development.",
+  "homepage": "https://github.com/alandtse/CommonLibVR/tree/ng",
+  "license": "GPL-3.0",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    },
+    "directxmath",
+    "directxtk",
+    "rapidcsv",
+    "spdlog",
+    "xbyak",
+    "fmt"
+  ],
+  "default-features": [
+    "se",
+    "ae",
+    "vr"
+  ],
+  "features": {
+    "se": {
+      "description": "Enable Skyrim SE runtime support"
+    },
+    "ae": {
+      "description": "Enable Skyrim AE runtime support"
+    },
+    "vr": {
+      "description": "Enable Skyrim VR runtime support"
+    }
+  }
+}
